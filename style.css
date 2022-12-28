@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   /* height: 100vh; */
   /* display: flex; */
   cursor: pointer;
@@ -9,78 +9,39 @@ body {
 
 .cursor {
   position: fixed;
-  width: 35px;
-  height: 35px;
-  border: 5px solid #c6c6c6;
+  width: 5px;
+  height: 5px;
+  border: 5px solid #ff0000;
   border-radius: 50%;
   left: 0;
   top: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: .2s;
+  transition: .0,8s;
 }
 
 .cursor1 {
   position: fixed;
-  width: 30px;
-  height: 30px;
-  border: 5px solid #c6c6c6;
+  width: 5px;
+  height: 5px;
+  border: 5px solid #ff0000;
   border-radius: 50%;
   left: 0;
   top: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: .2,5s;
+  transition: .1s;
 }
 
 .cursor2 {
   position: fixed;
-  width: 25px;
-  height: 25px;
-  background-color: 10px solid #c6c6c6;
+  width: 5px;
+  height: 5px;
+  border: 5px solid #ff0000;
   border-radius: 50%;
   left: 0;
   top: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: .3s;
-}
-
-.cursor3 {
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  border: 5px solid #c6c6c6;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: .3,4s;
-}
-
-.cursor4 {
-  position: fixed;
-  width: 15px;
-  height: 15px;
-  border: 5px solid #c6c6c6;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: .4s;
-}
-
-.cursor5 {
-  position: fixed;
-  width: 10px;
-  height: 10px;
-  border: 5px solid #c6c6c6;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: .4,3s;
+  transition: .1,5s;
 }
