@@ -1,4 +1,32 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.animation {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.animation-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.2);
+}
+
+.animation-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+/* body {
   margin: 0;
   padding: 0;
   background: url(img/ic.png) no-repeat center;
@@ -10,16 +38,16 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
   cursor: pointer;
-}
+} */
 
-.tetxt p {
+/* .tetxt p {
   width: 500px;
   line-height: 26px;
   font-size: 18px;
   text-align: justify;
-}
+} */
 
-.cursor {
+/* .cursor {
   position: fixed;
   width: 5px;
   height: 5px;
@@ -56,4 +84,4 @@ body {
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: .1,5s;
-}
+} */
