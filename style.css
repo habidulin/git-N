@@ -1,10 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-color: aquamarine; */
-  /* height: 100vh; */
-  /* display: flex; */
+  background: url(img/ic.png) no-repeat center;
+  background-color: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
   cursor: pointer;
+}
+
+.tetxt p {
+  width: 500px;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .cursor {
